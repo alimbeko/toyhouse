@@ -1,0 +1,13 @@
+# Which markdown lib
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+# which type of links.
+permalink: pretty
+
+# Deal with source code?
+pygments: true
+
+# better relevent post section? Overwrite with --lsi
+lsi: false # so sad this doesn't work on github
